@@ -5,6 +5,7 @@ We consolidate all general-use crypto processes and know-how here.
 # Table of Contents
 
 - [OpenSSL Reference](#openssl-reference)
+  - [Which OpenSSL Implementation?](#which-openssl-implementation)
 - [Sending Encrypted Messages](#sending-encrypted-messages)
   - [PEM Key Format](#pem-key-format)
   - [Generate an Encryption Key](#generate-an-encryption-key)
@@ -19,6 +20,12 @@ We consolidate all general-use crypto processes and know-how here.
 # OpenSSL Reference
 
 The man pages are consolidated [on OpenSSL's official site](https://www.openssl.org/docs/manmaster/man1/).
+
+## Which OpenSSL Implementation?
+
+[LibreSSL](https://www.libressl.org). Current version of this writing is `2.9.1`.
+
+    openssl version
 
 # Sending Encrypted Messages
 
